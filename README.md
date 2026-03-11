@@ -1,2 +1,6 @@
-# Array-ds-10
-Array ds 10
+class Solution:
+    def kthSmallest(self, arr, k):
+        arr.sort()
+        return arr[k-1]
+
+        
